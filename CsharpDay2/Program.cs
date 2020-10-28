@@ -1,4 +1,5 @@
 ﻿using CsharpDay2.Cornel;
+using CsharpDay2.Kathi;
 using CsharpDay2.Samira;
 using System;
 
@@ -23,7 +24,9 @@ namespace CsharpDay2
         }
         static void KathiTask()
         {
-            Console.WriteLine("Hello World!");
+            ClassOne one = new Kathi.ClassOne();
+            one.printName();
+
         }
         static void CornelTask()
         {
