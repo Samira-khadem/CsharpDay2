@@ -10,8 +10,8 @@ namespace CsharpDay2
     {
         static void Main(string[] args)
         {
-            SamiraTask();
-           // KathiTask();
+            //SamiraTask();
+            KathiTask();
             //CornelTask();
 
             
@@ -25,7 +25,7 @@ namespace CsharpDay2
             //newtask.TaskTwo();
             //newtask.TaskThree();
             //newtask.TaskFour();
-           // newtask.TaskFive();
+           newtask.TaskFive();
             //newtask.TaskSeven();
         }
         static void KathiTask()
@@ -36,7 +36,7 @@ namespace CsharpDay2
             //one.TaskTwo();
             //one.TaskThree();
             //one.TaskFour();
-            //one.TaskFive();
+            one.TaskFive();
             //one.TaskSix();
 
         }
