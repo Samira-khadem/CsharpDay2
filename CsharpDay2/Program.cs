@@ -8,12 +8,12 @@ namespace CsharpDay2
     {
         static void Main(string[] args)
         {
-            SamiraTask();
-            KathiTask();
+            //SamiraTask();
+           // KathiTask();
             CornelTask();
 
             
-            Console.WriteLine("Hello World!");
+           // Console.WriteLine("Hello World!");
         }
         static void SamiraTask()
         {
@@ -27,8 +27,12 @@ namespace CsharpDay2
         }
         static void CornelTask()
         {
-            Class01 object_01 = new Cornel.Class01();
-            object_01.Task_01();
+            Class01 Tasks = new Cornel.Class01();
+            //Tasks.Task_01();
+            //Tasks.Task_02();
+            Tasks.Task_03();
+            
+            
         }
     }
 }
