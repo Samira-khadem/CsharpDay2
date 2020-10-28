@@ -206,7 +206,8 @@ namespace CsharpDay2.Cornel
 
             switch(operation)
             {
-                case 
+                case "+":
+                    Console.WriteLine(num1 + num2);
             }
 
 
