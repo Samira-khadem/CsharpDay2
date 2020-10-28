@@ -101,8 +101,6 @@ namespace CsharpDay2.Samira
         }
 
        
-        
-
 
     }
 }
