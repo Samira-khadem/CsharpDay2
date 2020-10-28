@@ -25,7 +25,13 @@ namespace CsharpDay2
         static void KathiTask()
         {
             ClassOne one = new Kathi.ClassOne();
-            one.printName();
+            //one.printName();
+            //one.TaskOne();
+            //one.TaskTwo();
+            //one.TaskThree();
+            //one.TaskFour();
+            //one.TaskFive();
+            //sone.TaskSix();
 
         }
         static void CornelTask()
