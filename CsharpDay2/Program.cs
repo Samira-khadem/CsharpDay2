@@ -20,7 +20,12 @@ namespace CsharpDay2
         {
            
             Tasks newtask = new Samira.Tasks();
-            newtask.TaskOne();
+            //newtask.TaskOne();
+            //newtask.TaskTwo();
+            //newtask.TaskThree();
+            //newtask.TaskFour();
+            //newtask.TaskFive();
+            newtask.TaskSeven();
         }
         static void KathiTask()
         {
