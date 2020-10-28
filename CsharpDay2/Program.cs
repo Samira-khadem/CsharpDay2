@@ -31,7 +31,7 @@ namespace CsharpDay2
             //one.TaskThree();
             //one.TaskFour();
             //one.TaskFive();
-            //sone.TaskSix();
+            //one.TaskSix();
 
         }
         static void CornelTask()
