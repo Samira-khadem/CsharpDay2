@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <Folder Include="Kathi\" />
-    <Folder Include="Cornel\" />
   </ItemGroup>
 
 </Project>

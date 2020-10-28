@@ -1,4 +1,5 @@
-﻿using CsharpDay2.Samira;
+﻿using CsharpDay2.Cornel;
+using CsharpDay2.Samira;
 using System;
 
 namespace CsharpDay2
@@ -26,7 +27,8 @@ namespace CsharpDay2
         }
         static void CornelTask()
         {
-            Console.WriteLine("Hello World!");
+            Class01 object_01 = new Cornel.Class01();
+            object_01.Task_01();
         }
     }
 }
