@@ -100,22 +100,7 @@ namespace CsharpDay2.Samira
 
         }
 
-        public void TaskSix()
-        {
-            Console.WriteLine("Enter a number : ");
-            double numA = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter another number : ");
-            double numB = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter the application of your choice ");
-            double app = Convert.ToDouble(Console.ReadLine());
-            switch ()
-            {
-                case app = + :
-                    Console.WriteLine(numA + numB);
-
-
-            }
-        }
+       
         
 
 
