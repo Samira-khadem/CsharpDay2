@@ -155,6 +155,67 @@ namespace CsharpDay2.Cornel
             }
 
         }
+
+        public void Task_04()
+        {
+            float number = 1;
+            float[] array_01 = { 1, 2,3,4,5,6,7,8,9 };
+
+            for(int i = 0; i < array_01.Length; i++)
+            {
+                number = number * array_01[i];
+            }
+
+            Console.WriteLine(number);
+        }
+
+        public void Task_05_01()
+        {
+            for(int i = 0; i < 7; i++)
+            {
+                for (int b = 0; b < i; b++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine("");
+            }
+        }
+
+        public void Task_05_02()
+        {
+            for (int i = 7; i > 0; i--)
+            {
+                for (int b = 0; b < i; b++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine("");
+            }
+        }
+
+        public void Task_06()
+        {
+            Console.WriteLine("Enter the firs number");
+            int num1 = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("Enter the second number");
+            int num2 = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("Enter the operation");
+            string operation = Convert.ToString(Console.ReadLine);
+
+            switch(operation)
+            {
+                case "+":
+                    Console.WriteLine(num1 + num2);
+                    break;
+
+            }
+
+
+
+
+        }
     }
        
         

@@ -2,6 +2,7 @@
 using CsharpDay2.Kathi;
 using CsharpDay2.Samira;
 using System;
+using System.Threading.Tasks;
 
 namespace CsharpDay2
 {
@@ -33,7 +34,11 @@ namespace CsharpDay2
             Class01 Tasks = new Cornel.Class01();
             //Tasks.Task_01();
             //Tasks.Task_02();
-            Tasks.Task_03();
+            //Tasks.Task_03();
+            //Tasks.Task_04();
+            //Tasks.Task_05();
+            Tasks.Task_05_02();
+
             
             
         }
