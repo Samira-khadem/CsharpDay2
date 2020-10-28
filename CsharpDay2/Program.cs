@@ -31,7 +31,7 @@ namespace CsharpDay2
         static void KathiTask()
         {
             ClassOne one = new Kathi.ClassOne();
-            //one.printName();
+            //one.printName();  just make a comment :) 
             //one.TaskOne();
             //one.TaskTwo();
             //one.TaskThree();
