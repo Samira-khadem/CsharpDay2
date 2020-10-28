@@ -26,7 +26,7 @@ namespace CsharpDay2
             //newtask.TaskThree();
             //newtask.TaskFour();
             //newtask.TaskFive();
-            newtask.TaskSeven();
+            //newtask.TaskSeven();
         }
         static void KathiTask()
         {
