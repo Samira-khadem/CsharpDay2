@@ -202,13 +202,9 @@ namespace CsharpDay2.Cornel
             int num2 = Convert.ToInt16(Console.ReadLine());
 
             Console.WriteLine("Enter the operation");
-            string operation = Convert.ToString(Console.ReadLine();
+            string operation = Convert.ToString(Console.ReadLine());
 
-            switch(operation)
-            {
-                case "+":
-                    Console.WriteLine(num1 + num2);
-            }
+            
 
 
 
