@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection.PortableExecutable;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace CsharpDay2.Samira
@@ -80,6 +82,42 @@ namespace CsharpDay2.Samira
             }
 
         }
+
+        public void TaskSeven()
+        {
+            Console.WriteLine("Enter your weight : ");
+            double weight = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter your height in meters : ");
+            double height = Convert.ToDouble(Console.ReadLine());
+            double bmi = weight / (height * height);
+            if (bmi < 19)
+                Console.WriteLine("You are underwight try eating more proteins");
+            else if (bmi>19 && bmi<25)
+                Console.WriteLine("You have normal wight keep up the good work");
+            else if (bmi>25)
+                Console.WriteLine("You are overweight try doing some sports");
+
+
+        }
+
+        public void TaskSix()
+        {
+            Console.WriteLine("Enter a number : ");
+            double numA = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter another number : ");
+            double numB = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the application of your choice ");
+            double app = Convert.ToDouble(Console.ReadLine());
+            switch ()
+            {
+                case app = + :
+                    Console.WriteLine(numA + numB);
+
+
+            }
+        }
+        
+
 
     }
 }
